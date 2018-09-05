@@ -1,0 +1,50 @@
+body{
+	background-color: #F2F2E3;
+	margin-left: 3em;
+	margin-top: 3em;
+}
+h1{
+	color: #0D64C1;
+	font-family: courier;
+	font-size: 50px;
+	line-height: 10px;
+}
+h2{
+	color: #41413A;
+	font-style: italic;
+	font-family: courier;
+	font-size: 25px;
+}
+li{
+	color: #41413A;
+	font-family: courier;
+	font-size: 14px;
+	list-style: none;
+}
+p{
+	padding-top: 5px;
+}
+.body{
+	color: #41413A;
+}
+.Venkman{
+	color: #F95738;
+}
+.Barrett{
+	color: #EE964B;
+}
+.Mayor{
+	color: #EDB74B;
+}
+.Stantz{
+	color: #F4D35E;
+}
+.Spengler{
+	color: #0D64C1;
+}
+.Zeddemore{
+	color: #083D77;
+}
+.directions{
+	font-style: italic;
+}
