@@ -1,0 +1,38 @@
+body{
+	margin-left: 1em;
+	margin-top: 2em;
+	margin-right: 1em;
+}
+#background{
+	background-color: #d3d7de;
+	height: 165px;
+	width: 100%;
+}
+img{
+	float: left;
+	margin-right: 1.5em;
+	margin-left: 2em;
+	margin-top: 3em;
+	height: 135px;
+}
+h1 {
+	color: #001c7f;
+	font-size: 60px;
+	padding-top: 70px;
+	line-height: 10px;
+}
+h2 {
+	color: #001c7f;
+	font-size: 30px;
+}
+p{
+	padding-left: 2em;
+}
+.verse1{
+	padding-top: 2em;
+	font-style: italic;
+}
+.secondary{
+	padding-top: 1em;
+	font-style: italic;
+}
