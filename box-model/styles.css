@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("bg.png");
+	background-position: center top;
+	min-height: 2380px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+h1 {
+	margin-top: 0px;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	word-spacing: 2px;
+	line-height: 55px;
+}
+
+/*classes for intro section*/
+.intro {
+	background-image: url("intro.jpg");	
+	background-size: cover;	
+	background-repeat: no-repeat;
+	height: 480px;
+}
+.intro-content {
+	text-align: center;	
+	padding-top: 141px;
+	color: black;
+}
+.intro-content h1 {
+	font-size: 79px;
+	word-spacing: 2px;
+	line-height: 0px;
+}	
+.intro-content h2 {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 15px;
+}
+.italic {
+	font-style: italic;
+}
+/*classes for section 1*/
+.section1 {
+	background-color: #FFF2CE;
+	height: 700px;
+	color: #5B6424;
+}
+	
+.section1-content {
+	font-size: 18px;
+	text-align: left;	
+	line-height: 25px;
+	margin-left: 120px;
+	margin-right: 120px;
+	padding: 70px;
+	padding-top: 0px;
+}
+.section1-image img {
+	width: 400px;
+	height: 300px;
+	float: right;
+	padding-right: 70px;
+	margin-right: 120px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+/*classes for section 2*/
+.section2 {
+	background-color: #E89E0A;
+	height: 680px;
+	color: #2C1700;
+}
+.section2 h1 {
+	line-height: 40px;
+}
+.grid {
+	margin-left: 95px;
+	margin-right: 95px;
+	padding-top: 10px;
+	padding-left: 95px;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-column-gap: 60px;
+}
+.section2-image img {
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding-bottom: 25px;
+	margin-right: 10px;
+}
+.section2-subtitle {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+}
+.section2-content{
+	padding-top: 5px;
+	font-size: 18px;
+	line-height: 25px;
+}
+/*classes for section 3*/
+.section3 {
+	background-color: #FFF2CE;
+	height: 420px;
+	color: #5B6424;
+}
+.section3-content {
+	font-size: 26px;
+	text-align: center;	
+	line-height: 35px;
+}
+/*classes for footer*/
+.footer {
+	background: white;
+	height: 100px;
+	margin-left: 190px;
+	padding-top: 40px;
+	font-size: 18px;
+}
