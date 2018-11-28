@@ -45,12 +45,12 @@ sup {
 
 .section {
 	text-align: center;
-	padding-top: 150px;
+	padding-top: 200px;
 }
 
 .container {
-		padding-left: 8%;
-		padding-right: 8%;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
 .container:after {
@@ -78,6 +78,14 @@ sup {
 }
 
 @media only screen and (min-width: 100px, max-width: 650px) {
+	p {
+		font-size: 10;
+	}
+
+	.container {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 	.thirds-text {
 		background-color: #192640;
 		padding: 20px;
@@ -87,9 +95,18 @@ sup {
 }
 
 @media only screen and (min-width: 650px) {
+	p {
+		font-size: 10;
+	}
+
 	.section {
 		padding-top: 200px;
 		padding-bottom: 200px;
+	}
+
+	.container {
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 
 	.thirds-column1 {
